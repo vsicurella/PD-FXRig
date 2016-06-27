@@ -1,4 +1,4 @@
-#N canvas 40 189 980 459 10;
+#N canvas 37 193 980 459 10;
 #X obj 87 7 notein;
 #X floatatom 87 48 5 0 0 0 Plugin_num - -, f 5;
 #X obj 87 92 ctlin;
@@ -28,7 +28,7 @@
 #X obj 687 196 *~;
 #X obj 34 182 pack f f;
 #X obj 87 28 - 48;
-#N canvas 52 263 1198 488 plugin 0;
+#N canvas 49 267 1198 488 plugin 1;
 #X obj 17 10 inlet~;
 #X obj 91 337 == 0;
 #X obj 21 362 *~;
@@ -136,21 +136,21 @@
 #X obj 708 226 r TMil;
 #X obj 818 227 r TTrl;
 #X obj 20 249 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 5200 1;
+-1 -1 6350 1;
 #X obj 127 249 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 8600 1;
+-1 -1 3175 1;
 #X obj 234 249 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 2200 1;
+-1 -1 9525 1;
 #X obj 340 249 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
+-1 -1 6350 1;
 #X obj 446 249 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3100 1;
+-1 -1 1587 1;
 #X obj 553 249 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 6100 1;
+-1 -1 3175 1;
 #X obj 659 249 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 9600 1;
+-1 -1 12700 1;
 #X obj 765 249 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4200 1;
+-1 -1 9525 1;
 #X connect 0 0 2 0;
 #X connect 2 0 8 0;
 #X connect 2 1 51 0;
@@ -317,17 +317,17 @@
 #X obj 612 392 s CFb;
 #X obj 619 216 r CFbl;
 #X obj 15 239 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 8200 1;
+-1 -1 3175 1;
 #X obj 123 239 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 10200 1;
+-1 -1 3637 1;
 #X obj 230 239 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 5000 1;
+-1 -1 3893 1;
 #X obj 335 238 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1600 1;
+-1 -1 205 1;
 #X obj 569 240 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 1800 1;
+-1 -1 3175 1;
 #X obj 462 239 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 12700 1;
+-1 -1 3175 1;
 #X connect 0 0 2 0;
 #X connect 2 0 9 0;
 #X connect 2 1 46 0;
@@ -462,15 +462,15 @@
 #X obj 385 400 s PSp;
 #X obj 491 398 s PRe;
 #X obj 21 260 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 8700 1;
+-1 -1 9525 1;
 #X obj 128 259 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 6800 1;
+-1 -1 3175 1;
 #X obj 235 261 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 6100 1;
+-1 -1 0 1;
 #X obj 341 261 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4300 1;
+-1 -1 9525 1;
 #X obj 447 261 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 2800 1;
+-1 -1 3175 1;
 #X connect 0 0 2 0;
 #X connect 2 0 9 0;
 #X connect 2 1 37 0;
@@ -531,7 +531,7 @@
 #X connect 58 0 31 0;
 #X connect 58 0 53 0;
 #X restore 424 134 pd controlPhaser;
-#N canvas 159 107 377 498 controlDelay 0;
+#N canvas 156 111 377 498 controlDelay 0;
 #X obj 115 6 inlet;
 #X obj 87 448 outlet;
 #X obj 115 32 unpack f f;
@@ -566,11 +566,11 @@
 #X msg 38 419 control #2 \$1;
 #X msg 145 419 control #1 \$1;
 #X obj 38 239 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 6900 1;
+-1 -1 4233 1;
 #X obj 145 239 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3500 1;
+-1 -1 2540 1;
 #X obj 263 244 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 8200 1;
+-1 -1 6350 1;
 #X obj 82 375 s DMx;
 #X obj 90 213 r DMxl;
 #X obj 196 374 s DDe;
@@ -661,13 +661,13 @@
 #X obj 120 383 / 127.767;
 #X obj 116 56 loadbang;
 #X obj 11 242 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 10800 1;
+-1 -1 3175 1;
 #X obj 120 244 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 12200 1;
+-1 -1 9525 1;
 #X obj 228 244 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3700 1;
+-1 -1 6350 1;
 #X obj 337 241 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 6800 1;
+-1 -1 3175 1;
 #X obj 170 218 r VBal;
 #X obj 277 219 r VTal;
 #X obj 387 216 r VDal;
@@ -787,7 +787,7 @@
 #X obj 60 537 +~;
 #X obj 193 498 *~;
 #X obj 79 250 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 9300 1;
+-1 -1 0 1;
 #X obj 61 486 -;
 #X msg 61 464 1;
 #X obj 61 442 t b f;
@@ -898,8 +898,8 @@
 #X obj 677 138 r~ in4;
 #X obj 675 186 s~ out4;
 #X obj 895 201 r~ in5;
-#X obj 939 246 s~ out5;
-#X obj 896 246 s~ fb;
+#X obj 908 249 s~ out5;
+#X obj 896 306 s~ fb;
 #X obj 856 158 r~ fb;
 #X obj 324 337 == 0;
 #X obj 254 362 *~;
@@ -939,6 +939,52 @@
 #X obj 615 315 r~ out5b;
 #X obj 1011 240 r~ out6b;
 #X obj 684 291 r sV;
+#X obj 772 275 plugin~ Saturate;
+#N canvas 0 85 514 509 controlSaturation 1;
+#X obj 166 419 outlet;
+#X text 76 121 mix;
+#X text 169 103 delay;
+#X floatatom 69 327 5 0 0 0 - - -, f 5;
+#X floatatom 282 329 5 0 0 0 - - -, f 5;
+#X text 282 127 fb;
+#X obj 284 308 / 127;
+#X obj 59 169 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 1155 1;
+#X obj 166 148 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 3175 1;
+#X obj 284 174 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 59 305 / 11.5455;
+#X obj 166 284 / 1.32292;
+#X obj 166 305 + -24;
+#X floatatom 174 328 5 0 0 0 - - -, f 5;
+#X msg 59 143 11.5455;
+#X msg 166 124 31.75;
+#X msg 284 148 0;
+#X msg 281 349 control #3;
+#X msg 166 348 control #2 \$1;
+#X msg 59 349 control #1 \$1;
+#X obj 166 56 loadbang;
+#X connect 4 0 17 0;
+#X connect 6 0 4 0;
+#X connect 7 0 10 0;
+#X connect 8 0 11 0;
+#X connect 9 0 6 0;
+#X connect 10 0 19 0;
+#X connect 10 0 3 0;
+#X connect 11 0 12 0;
+#X connect 12 0 18 0;
+#X connect 12 0 13 0;
+#X connect 14 0 7 0;
+#X connect 15 0 8 0;
+#X connect 16 0 9 0;
+#X connect 17 0 0 0;
+#X connect 18 0 0 0;
+#X connect 19 0 0 0;
+#X connect 20 0 15 0;
+#X connect 20 0 14 0;
+#X connect 20 0 16 0;
+#X restore 745 247 pd controlSaturation;
 #X connect 0 0 106 0;
 #X connect 1 0 3 1;
 #X connect 2 0 4 0;
