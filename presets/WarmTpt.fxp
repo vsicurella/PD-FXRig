@@ -1,10 +1,11 @@
+mutel 0;
 VTal 76;
 VEal 0;
 VBal 13;
 gainInl 1;
 gainOutl 0.576772;
 tempol 120;
-mutel 0;
+bypassl 0;
 sTl 1;
 TOvl 127;
 TGal 22;

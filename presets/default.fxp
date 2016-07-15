@@ -1,7 +1,8 @@
+mutel 0;
 gainInl 1.0;
 gainOutl 0.6666;
 tempol 120;
-mutel 0;
+bypassl 0;
 sTl 0;
 TOvl 63.5;
 TGal 31.75;

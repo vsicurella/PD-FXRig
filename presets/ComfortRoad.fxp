@@ -1,7 +1,8 @@
+mutel 0;
 gainInl 1;
 gainOutl 1;
 tempol 74.2702;
-mutel 0;
+bypassl 0;
 sTl 0;
 TOvl 34;
 TGal 30;
